@@ -15,7 +15,7 @@ body{
   padding-left: 30px;
   padding-top: 10px;
 }
-section{
+.flexible-container{
   display: flex;
 }
 .half-width img{
@@ -24,10 +24,23 @@ section{
 .link-button{
   text-decoration: none;
   background-image: linear-gradient(green, red);
-  padding: 15px 25px;
+  padding: 25px 30px;
   border-radius: 15px;
   color: yellow;
+
+  
+}
+.recipes-area{
+  text-align: center;
+  color: rgb(44, 8, 245);
 }
 .recipe-list{
+  width: 50%;
   text-align: center;
-  color: blue;
+}
+footer{
+  text-align: center;
+}
+footer p{
+  color: rgb(0, 4, 255);
+}
